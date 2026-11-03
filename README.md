@@ -69,11 +69,18 @@ Art buyers and independent artists.
 - Dashboards for sellers and an admin area with access levels
 - Trusted login and payment services, with no card details stored
 
-## Done means
-- I can sign up, buy a test item and see it in my orders
+## Done means (acceptance criteria)
+- I can sign up as a customer, buy a test item and see it in my orders
+- A seller can add a piece with a photo and price, and it shows in the shop
+- A customer cannot open the seller dashboard or the admin area
+
+## Tests
+- Sign up, sign in with two-step sign-in, buy a test item, check the order
+- Add a piece as a seller, check it appears for customers
+- Try the seller and admin pages as a customer, check access is refused
 
 ## How to work
-Before you start, give me your plan in a few lines and ask about anything that would change the result. Do not add things I did not ask for.
+Before you build, write a short spec: goal, scope, what is not included, acceptance criteria and tests. Wait for my OK. Then write the tests first and build until they all pass. Do not add things I did not ask for.
 ```
 
 ## How to use it

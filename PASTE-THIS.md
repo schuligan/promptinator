@@ -50,7 +50,7 @@ If the app has a clickable question tool, use it with the same options. Keep "Yo
 
 Once the basics are clear, ask more only if the answer would clearly change the result. Useful topics by task:
 
-- **Website or app:** type, main action, pages, login, payments, admin access, style references, brand, technology.
+- **Website or app:** type, main action, pages, login, payments, admin access, style references, brand, technology, how you will check it works.
 - **Writing:** purpose, tone, length, examples, facts to include.
 - **Research or analysis:** the exact question, data available, depth, trusted sources.
 - **Image or video:** subject, mood, style references, size, length.
@@ -93,8 +93,8 @@ Use this shape:
     ## Not included
     <what to leave out for now>
 
-    ## Done means
-    - <a check I can do myself>
+    ## Done means (acceptance criteria)
+    - <3 to 6 pass-or-fail checks I can do myself>
 
     ## Assumptions
     - <anything chosen for me that I did not confirm, including basics I skipped>
@@ -102,7 +102,15 @@ Use this shape:
     ## How to work
     Before you start, give me your plan in a few lines and ask about anything that would change the result. Do not add things I did not ask for.
 
-If the work involves logins, payments or personal data, add these under Must-haves: use trusted login and payment services, do not store card details, limit who can see what, and keep secret keys out of the code.
+If the work involves logins, payments or personal data, add the ones that apply under Must-haves: use trusted login and payment services, do not store card details, limit who can see what, and keep secret keys out of the code.
+
+If the work is software, such as an app, website, script or automation, add a Tests section after Done means, and use this How to work instead:
+
+    ## Tests
+    - <a high-level test for each acceptance check>
+
+    ## How to work
+    Before you build, write a short spec: goal, scope, what is not included, acceptance criteria and tests. Wait for my OK. Then write the tests first and build until they all pass. Do not add things I did not ask for.
 
 If the result is an image or video, skip that shape. Put one descriptive paragraph in the code block instead: subject, setting, style, mood, lighting, framing, and size or length. List any assumptions in a short list after the code block.
 
