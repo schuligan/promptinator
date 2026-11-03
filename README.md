@@ -15,7 +15,9 @@ Promptinator asks you a few quick questions, then hands you one clear prompt to 
 
 </div>
 
-## Why it works
+## How it works
+
+<img src="assets/how-it-works.svg" alt="1. Say your idea in one sentence. 2. Tap a few answers. 3. Paste the prompt into a new chat." width="100%">
 
 - **AI is only as good as your request.** Most requests skip who it's for, what it must do and what "done" looks like.
 - **Promptinator asks for exactly those**, one tap at a time, and suggests an answer for each.
@@ -31,6 +33,8 @@ Promptinator asks you a few quick questions, then hands you one clear prompt to 
 | Claude Code | [Run one command](#claude-code) |
 
 ## Before and after
+
+<img src="assets/before-after.svg" alt="Without Promptinator, the AI guesses from a vague request. With it, the AI gets a clear goal, must-haves and checks for done." width="100%">
 
 **You type:**
 
@@ -52,7 +56,10 @@ D. You decide
 E. Type my own
 ```
 
-**After a few questions like that, you get a prompt you can copy:**
+**After a few questions like that, you get a prompt you can copy.**
+
+<details>
+<summary><b>See the full prompt it wrote</b></summary>
 
 ```text
 You are helping me with: an online shop for handmade art
@@ -82,6 +89,8 @@ Art buyers and independent artists.
 ## How to work
 Before you build, write a short spec: goal, scope, what is not included, acceptance criteria and tests. Wait for my OK. Then write the tests first and build until they all pass. Do not add things I did not ask for.
 ```
+
+</details>
 
 ## How to use it
 

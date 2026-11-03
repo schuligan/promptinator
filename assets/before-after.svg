@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1280 420" width="1280" height="420" font-family="-apple-system, 'Segoe UI', Helvetica, Arial, sans-serif">
+  <rect width="1280" height="420" rx="24" fill="#0f172a"/>
+
+  <!-- Without -->
+  <rect x="40" y="40" width="580" height="340" rx="18" fill="#1e293b" stroke="#f87171" stroke-width="2"/>
+  <text x="72" y="92" font-size="26" font-weight="800" fill="#fca5a5">✗ Without Promptinator</text>
+  <rect x="72" y="118" width="330" height="54" rx="27" fill="#334155"/>
+  <text x="96" y="152" font-size="20" fill="#ffffff">“make me a website”</text>
+  <text x="72" y="222" font-size="20" fill="#e2e8f0">The AI has to guess:</text>
+  <text x="72" y="262" font-size="19" fill="#94a3b8">✗  a generic template</text>
+  <text x="72" y="296" font-size="19" fill="#94a3b8">✗  features you didn't need</text>
+  <text x="72" y="330" font-size="19" fill="#94a3b8">✗  lots of back-and-forth to fix it</text>
+
+  <!-- With -->
+  <rect x="660" y="40" width="580" height="340" rx="18" fill="#1e293b" stroke="#22c55e" stroke-width="2"/>
+  <text x="692" y="92" font-size="26" font-weight="800" fill="#86efac">✓ With Promptinator</text>
+  <rect x="692" y="118" width="516" height="104" rx="12" fill="#0f172a" stroke="#334155"/>
+  <text x="712" y="146" font-size="16" font-family="Menlo, Consolas, monospace" fill="#a5b4fc">Goal: an online shop for handmade art</text>
+  <text x="712" y="172" font-size="16" font-family="Menlo, Consolas, monospace" fill="#a5b4fc">Must-haves: accounts, secure payments</text>
+  <text x="712" y="198" font-size="16" font-family="Menlo, Consolas, monospace" fill="#a5b4fc">Done means: I can buy a test item</text>
+  <text x="692" y="262" font-size="19" fill="#e2e8f0">✓  built for your goal and your audience</text>
+  <text x="692" y="296" font-size="19" fill="#e2e8f0">✓  only what you asked for</text>
+  <text x="692" y="330" font-size="19" fill="#e2e8f0">✓  checks to prove it's done</text>
+</svg>

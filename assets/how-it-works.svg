@@ -1,0 +1,44 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1280 400" width="1280" height="400" font-family="-apple-system, 'Segoe UI', Helvetica, Arial, sans-serif">
+  <rect width="1280" height="400" rx="24" fill="#0f172a"/>
+  <text x="640" y="58" font-size="30" font-weight="800" fill="#ffffff" text-anchor="middle">How it works</text>
+
+  <!-- Step 1 -->
+  <rect x="40" y="90" width="360" height="270" rx="18" fill="#1e293b" stroke="#334155" stroke-width="2"/>
+  <circle cx="84" cy="134" r="22" fill="#6366f1"/>
+  <text x="84" y="142" font-size="22" font-weight="800" fill="#ffffff" text-anchor="middle">1</text>
+  <text x="120" y="142" font-size="24" font-weight="700" fill="#ffffff">Say your idea</text>
+  <text x="64" y="190" font-size="18" fill="#94a3b8">One sentence is enough.</text>
+  <rect x="64" y="226" width="312" height="60" rx="30" fill="#334155"/>
+  <text x="220" y="263" font-size="21" fill="#ffffff" text-anchor="middle">“I want a website”</text>
+  <text x="64" y="330" font-size="16" fill="#64748b">Works in Claude, ChatGPT, Gemini</text>
+
+  <path d="M410 225 h28 m-10 -10 l10 10 l-10 10" stroke="#818cf8" stroke-width="3" fill="none" stroke-linecap="round" stroke-linejoin="round"/>
+
+  <!-- Step 2 -->
+  <rect x="460" y="90" width="360" height="270" rx="18" fill="#1e293b" stroke="#334155" stroke-width="2"/>
+  <circle cx="504" cy="134" r="22" fill="#6366f1"/>
+  <text x="504" y="142" font-size="22" font-weight="800" fill="#ffffff" text-anchor="middle">2</text>
+  <text x="540" y="142" font-size="24" font-weight="700" fill="#ffffff">Tap a few answers</text>
+  <text x="484" y="190" font-size="18" fill="#94a3b8">It asks only what changes the result.</text>
+  <rect x="484" y="214" width="312" height="38" rx="19" fill="#334155"/>
+  <text x="508" y="239" font-size="17" fill="#cbd5e1">A. Browse and read</text>
+  <rect x="484" y="260" width="312" height="38" rx="19" fill="#6366f1"/>
+  <text x="508" y="285" font-size="17" font-weight="700" fill="#ffffff">B. Buy things (suggested) ✓</text>
+  <rect x="484" y="306" width="312" height="38" rx="19" fill="#334155"/>
+  <text x="508" y="331" font-size="17" fill="#cbd5e1">D. You decide</text>
+
+  <path d="M830 225 h28 m-10 -10 l10 10 l-10 10" stroke="#818cf8" stroke-width="3" fill="none" stroke-linecap="round" stroke-linejoin="round"/>
+
+  <!-- Step 3 -->
+  <rect x="880" y="90" width="360" height="270" rx="18" fill="#1e293b" stroke="#22c55e" stroke-width="2"/>
+  <circle cx="924" cy="134" r="22" fill="#22c55e"/>
+  <text x="924" y="142" font-size="22" font-weight="800" fill="#0f172a" text-anchor="middle">3</text>
+  <text x="960" y="142" font-size="24" font-weight="700" fill="#ffffff">Paste the prompt</text>
+  <text x="904" y="190" font-size="18" fill="#94a3b8">Into a new chat. Get the real work.</text>
+  <rect x="904" y="210" width="312" height="134" rx="12" fill="#0f172a" stroke="#334155"/>
+  <text x="922" y="238" font-size="15" font-family="Menlo, Consolas, monospace" fill="#a5b4fc">## Goal</text>
+  <text x="922" y="262" font-size="15" font-family="Menlo, Consolas, monospace" fill="#a5b4fc">## Must-haves</text>
+  <text x="922" y="286" font-size="15" font-family="Menlo, Consolas, monospace" fill="#a5b4fc">## Done means</text>
+  <text x="922" y="310" font-size="15" font-family="Menlo, Consolas, monospace" fill="#a5b4fc">## Tests</text>
+  <text x="922" y="334" font-size="15" font-family="Menlo, Consolas, monospace" fill="#64748b">…ready to copy</text>
+</svg>
