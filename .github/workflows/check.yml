@@ -1,0 +1,14 @@
+name: Copies match
+on: [push, pull_request]
+jobs:
+  check:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      # ponytail: fixed line offsets (SKILL.md header = 5 lines, PASTE-THIS.md header = 2); update if either header changes
+      - name: PASTE-THIS.md matches SKILL.md
+        run: diff <(tail -n +6 promptinator/SKILL.md) <(tail -n +3 PASTE-THIS.md)
+      - name: Zip holds only SKILL.md, unchanged
+        run: |
+          [ "$(unzip -Z1 promptinator.zip)" = "promptinator/SKILL.md" ]
+          unzip -p promptinator.zip promptinator/SKILL.md | cmp - promptinator/SKILL.md

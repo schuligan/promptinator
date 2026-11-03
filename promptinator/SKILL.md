@@ -106,6 +106,8 @@ Use this shape:
 
 If the work involves logins, payments or personal data, add these under Must-haves: use trusted login and payment services, do not store card details, limit who can see what, and keep secret keys out of the code.
 
-After the code block, say only: "Paste this into a new chat. Tell me if you want to change anything."
+If the result is an image or video, skip that shape. Put one descriptive paragraph in the code block instead: subject, setting, style, mood, lighting, framing, and size or length. List any assumptions in a short list after the code block.
+
+After the code block, say only: "Paste this into a new chat. For longer work, paste it into a project's instructions instead. Tell me if you want to change anything." For an image or video, say only: "Paste this into your image or video tool. Tell me if you want to change anything."
 
 Then stop. If the user asks for a change, update the prompt and show the whole code block again.

@@ -55,11 +55,20 @@ Before you start, give me your plan in a few lines and ask about anything that w
 ### Any AI chat: the quickest way
 
 1. Open [PASTE-THIS.md](https://github.com/schuligan/promptinator/blob/main/PASTE-THIS.md) and copy everything.
-2. Paste it into a new chat in Claude, ChatGPT or another AI.
+2. Paste it into a new chat in Claude, ChatGPT, Gemini or another AI.
 3. Answer the questions.
 4. Copy the final prompt into a new chat.
 
 You type your answers here. Some apps may show clickable buttons, but not all do.
+
+### ChatGPT or Gemini: keep it ready
+
+Save it once so you don't have to paste it every time.
+
+- **ChatGPT:** create a Project or a custom GPT and paste everything from [PASTE-THIS.md](https://github.com/schuligan/promptinator/blob/main/PASTE-THIS.md) into its instructions.
+- **Gemini:** create a Gem and paste everything from [PASTE-THIS.md](https://github.com/schuligan/promptinator/blob/main/PASTE-THIS.md) into its instructions.
+
+Then start a chat there and say what you want help with.
 
 ### Claude: keep it as a skill
 
